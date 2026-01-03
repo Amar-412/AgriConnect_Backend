@@ -11,7 +11,7 @@ import com.Amar.AgriConnect.service.UserService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+
 public class ProductController {
 
     private final ProductService productService;
